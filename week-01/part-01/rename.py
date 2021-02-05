@@ -3,7 +3,6 @@ from os import path
 
 def main():
   entries = os.listdir()
-  print(os.listdir())
   workdir = path.split(os.getcwd())[1]
 
   for entry in entries:
@@ -14,4 +13,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
